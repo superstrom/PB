@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="IKVM" Version="8.3.0" />
+    <PackageReference Include="IKVM.Maven.SDK" Version="1.0.0" PrivateAssets="all" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!--<MavenReference Include="commons-logging:commons-logging" Version="1.2" />-->
+    <MavenReference Include="org.apache.pdfbox:pdfbox" Version="2.0.27" />
+  </ItemGroup>
+
+</Project>
