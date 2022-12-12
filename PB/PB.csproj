@@ -14,7 +14,8 @@
 
   <ItemGroup>
     <!--<MavenReference Include="commons-logging:commons-logging" Version="1.2" />-->
-    <MavenReference Include="org.apache.pdfbox:pdfbox" Version="2.0.27" />
+    <MavenReference Include="log4j:log4j" Version="1.2.17" />
+    <MavenReference Include="org.apache.pdfbox:pdfbox" Version="2.0.27" />    
     <MavenReference Include="org.bouncycastle:bcpkix-jdk15on" Version="1.64" />
   </ItemGroup>
 
