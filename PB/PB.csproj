@@ -9,7 +9,7 @@
 
   <ItemGroup>
     <PackageReference Include="IKVM" Version="8.4.0" />
-    <PackageReference Include="IKVM.Maven.SDK" Version="1.1.1" />
+    <PackageReference Include="IKVM.Maven.SDK" Version="1.2.0" />
   </ItemGroup>
 
   <ItemGroup>
