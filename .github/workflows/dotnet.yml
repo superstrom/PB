@@ -22,4 +22,4 @@ jobs:
     - name: Build
       run: dotnet build
     - name: Run
-      run: dotnet run --verbosity normal
+      run: dotnet run --verbosity normal --project PB
