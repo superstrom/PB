@@ -7,7 +7,7 @@ var logging = org.apache.commons.logging.LogFactory.getFactory();
 var logger = logging.getInstance(typeof(org.apache.pdfbox.text.PDFTextStripper));
 
 logger.error("this works");
-var filePath = Path.GetFullPath(@"examples\custom-render-demo.pdf");
+var filePath = Path.GetFullPath(Path.Combine("examples","custom-render-demo.pdf"));
 logger.error(filePath);
 using var netStream = File.OpenRead(filePath);
 
