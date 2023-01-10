@@ -5,7 +5,7 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <MavenAdditionalRepositories>imagej=http://maven.imagej.net/content/repositories/public/</MavenAdditionalRepositories>
+    <MavenAdditionalRepositories>ome=https://artifacts.openmicroscopy.org/artifactory/ome.releases/</MavenAdditionalRepositories>
   </PropertyGroup>
 
   <ItemGroup>
@@ -19,7 +19,7 @@
     <MavenReference Include="org.apache.pdfbox:pdfbox" Version="2.0.27" />    
     <MavenReference Include="org.bouncycastle:bcpkix-jdk15on" Version="1.64" />
     
-    <MavenReference Include="ome:formats-gpl" Version="6.1.1" />                    
+    <MavenReference Include="ome:formats-bsd" Version="6.11.1" />
   </ItemGroup>
 
 </Project>
