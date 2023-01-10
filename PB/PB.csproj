@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="IKVM" Version="8.4.0" />
+    <PackageReference Include="IKVM" Version="8.4.4" />
     <PackageReference Include="IKVM.Maven.SDK" Version="1.2.0" />
   </ItemGroup>
 
@@ -17,6 +17,8 @@
     <MavenReference Include="log4j:log4j" Version="1.2.17" />
     <MavenReference Include="org.apache.pdfbox:pdfbox" Version="2.0.27" />    
     <MavenReference Include="org.bouncycastle:bcpkix-jdk15on" Version="1.64" />
+    
+    <MavenReference Include="ome:formats-gpl" Version="6.1.1" />                    
   </ItemGroup>
 
 </Project>
