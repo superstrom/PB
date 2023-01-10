@@ -5,7 +5,10 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <MavenAdditionalRepositories>ome=https://artifacts.openmicroscopy.org/artifactory/ome.releases/,sci=https://maven.scijava.org/content/repositories/public/</MavenAdditionalRepositories>
+    <MavenAdditionalRepositories>
+      ome=https://artifacts.openmicroscopy.org/artifactory/ome.releases/;
+      sci=https://maven.scijava.org/content/repositories/public/;
+    </MavenAdditionalRepositories>
   </PropertyGroup>
 
   <ItemGroup>
